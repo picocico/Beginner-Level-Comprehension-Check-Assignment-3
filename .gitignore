@@ -1,1 +1,29 @@
+# ビルド生成物
+*.class
+*.o
+*.a
+*.so
+*.exe
+build/ 
+
+# 依存関係
+node_modules/
+vendor/
+
+# 環境設定ファイル
+.env
+config.yml
+
+# 一時ファイル
+*.log
+*.tmp
+*.bak
+
+# IDE固有のファイル
+.idea/
+.vscode/
+.project
+
+# OS固有のファイル
 .DS_Store
+Thumbs.db
